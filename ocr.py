@@ -19,7 +19,7 @@ def getSearchStrings(fileName = "config/search_strings.txt"):
     lines = file.read().splitlines()
     return lines
 
-def getHSVBounds(mode = "blue"):
+def getHSVBounds(mode = "equipment"):
     """
     Gives the upper and lower HSV bounds for the mode specified.
 
